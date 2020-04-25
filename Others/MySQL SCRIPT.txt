@@ -1,0 +1,11 @@
+CREATE DATABASE biblioteca;
+USE biblioteca;
+
+CREATE TABLE libros(
+id int auto_increment primary key,
+nombre varchar(100),
+des varchar(450),
+autor varchar(200),
+edit varchar(200),
+fechap date 
+)
